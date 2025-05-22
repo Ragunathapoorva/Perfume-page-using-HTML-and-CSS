@@ -1,0 +1,103 @@
+*{
+    text-align: center;
+    margin-top: 0;
+    margin-left: 0;
+    margin-left: 0;
+    box-sizing: border-box;
+    
+}
+.header {
+    background-color: black;
+    color: white;
+}
+h1,li ,ul {
+    display: inline;
+    padding: 20px;
+    cursor: pointer;
+
+}
+ul {
+    margin-left:40%;
+}
+nav {
+    padding: 25px;
+}
+li:hover{
+    color: rgb(220, 214, 102);
+}
+h1:hover {
+    color: rgb(209, 213, 101);
+}
+input {
+    padding: 10px;
+    width: 60%;
+
+}
+.searchbar {
+    text-align: center;
+    padding: 20px;
+
+}
+.product  {
+    display: inline;
+}
+
+
+.box {
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    width: 250px;
+   
+    
+}
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* spacing between items */
+    padding: 23px;
+    text-align: center;
+}
+
+.box {
+    border: 5px solid rgb(95, 89, 89);
+    width: 260px;
+    box-sizing: border-box;
+}
+
+.product-container {
+    display: flexbox;
+    flex-wrap:wrap;
+    gap: 43px; /* spacing between items */
+    padding: 23px;
+    text-align: center;
+    
+}
+.product-container :hover{
+    color: #cb7c70;
+    cursor: pointer;
+}
+
+.box {
+    border:3px solid rgb(5, 5, 5);
+    width: 250px;
+    box-sizing: border-box;
+    text-align: center;
+    scroll-padding: 40px;
+}
+.about {
+    text-align: center;
+    text-decoration: solid;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 2px;
+    text-wrap: wrap;
+    box-shadow: black;
+
+}
+.Contact {
+    background-color: rgb(191, 204, 177);
+    padding: 55px;
+    margin-bottom: 50px;
+}
+
